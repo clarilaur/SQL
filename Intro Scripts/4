@@ -1,0 +1,3 @@
+UPDATE Country
+SET Population = 3170010
+WHERE Name = 'Mongolia';
