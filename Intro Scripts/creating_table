@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS Song;
+
+CREATE TABLE Song (
+ ID INT,
+ Title VARCHAR(60),
+ Artist VARCHAR(60),
+ ReleaseYear INT
+);
