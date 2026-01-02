@@ -1,13 +1,13 @@
 INSERT INTO Horse (RegisteredName, Breed, Height, BirthDate)
-VALUES('Babe', 'Quarter Horse', 15.3, 2015-02-10);
+VALUES('Babe', 'Quarter Horse', 15.3, '2015-02-10');
 
 INSERT INTO Horse (RegisteredName, Breed, Height, BirthDate)
-VALUES('Independence', 'Holsteiner', 16.0, 2017-03-13);
+VALUES('Independence', 'Holsteiner', 16.0, '2017-03-13');
 
 INSERT INTO Horse (RegisteredName, Breed, Height, BirthDate)
-INSERT INTO ('Ellie', 'Saddlebred', 15.0, 2016-12-22);
+VALUES ('Ellie', 'Saddlebred', 15.0, '2016-12-22');
 
-INSERT INTO Horse (Breed, Height, BirthDate)
-VALUES ('Egyptian Arab', 14.9, 2019-10-12);
+INSERT INTO Horse (RegisteredName, Breed, Height, BirthDate)
+VALUES(NULL, 'Egyptian Arab', 14.9, '2019-10-12');
 
-SELECT * FROM HORSE;
+SELECT * FROM Horse;
