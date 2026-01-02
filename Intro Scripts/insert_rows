@@ -1,0 +1,21 @@
+INSERT INTO Song VALUES
+ (100, 'Blinding Lights', 'The Weeknd', 2019),
+ (200, 'One', 'U2', 1991),
+ (300, 'You\'ve Lost That Lovin\' Feeling', 'The Righteous Brothers', 1964),
+ (400, 'Johnny B. Goode', 'Chuck Berry', 1958);
+
+
+UPDATE Song
+Set Title = "With Or Without You"
+WHERE ID = 200;
+
+
+UPDATE Song
+Set Artist = 'Aretha Franklin'
+WHERE ID = 300;
+
+
+UPDATE Song
+Set ReleaseYear = 2021
+Where ReleaseYear > 1990;
+
