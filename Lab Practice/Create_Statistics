@@ -1,0 +1,8 @@
+CREATE TABLE Statistics (
+   CountryName VARCHAR(15),
+   ISOCode3 CHAR(3),
+   PopDensity DECIMAL(7, 2),
+   Area DECIMAL(9, 2),
+   PRIMARY KEY (ISOCode3),
+FOREIGN KEY (CountryName) REFERENCES Country (Name)
+);
