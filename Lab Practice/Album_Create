@@ -1,0 +1,6 @@
+CREATE TABLE Album (
+ ID INT,
+ Title VARCHAR(60),
+ ReleaseYear INT,
+ PRIMARY KEY (ID)
+);
