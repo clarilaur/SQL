@@ -1,0 +1,1 @@
+INSERT INTO Products VALUES (1, 'Laptop', 'SKU-001', 999.99);
