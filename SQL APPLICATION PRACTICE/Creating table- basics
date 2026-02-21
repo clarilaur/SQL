@@ -1,0 +1,10 @@
+CREATE TABLE Movie (
+   ID SMALLINT UNSIGNED,
+   Title VARCHAR(50),
+   Rating CHAR(4),
+   ReleaseDate DATE,
+   Budget DECIMAL(8,2)
+);
+
+
+SHOW TABLES;
