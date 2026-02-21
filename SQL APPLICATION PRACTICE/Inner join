@@ -1,0 +1,5 @@
+SELECT e.FirstName AS Employee, m.FirstName AS Manager
+FROM Employee e
+INNER JOIN Employee m
+   ON e.ManagerID = m.ID
+ORDER BY e.FirstName;
